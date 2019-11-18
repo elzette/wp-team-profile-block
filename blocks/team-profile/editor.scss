@@ -1,0 +1,40 @@
+.wp-block-semblance-teamprofile {
+
+  p {
+      font-size: 1.4rem;
+  }
+
+  .notice {
+    background: lightyellow;
+    font-size: 1.2rem;
+  }
+
+  button {
+
+      &.remove-image {
+
+        background-color:blueviolet;
+        border: 2px blueviolet solid;
+        border-radius: 20px;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+
+          svg {
+              background: blueviolet;
+              fill: white;
+          }
+
+          &:hover {
+              background-color:black;
+              border: 2px black solid;
+              opacity: 1;
+              svg {
+                background: black;
+              }
+          }
+      }
+  }
+}
