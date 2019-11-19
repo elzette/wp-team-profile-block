@@ -4,13 +4,13 @@
 
 1. WP Block create / add individual team members to a company about page
 2. Packed with various settings to change the layout / alignment
-3. Custom border colour
+3. Custom border colour and thickens (with RangeControl)
 4. Custom background colour
 5. Custom heading colour
 6. Keep profile image square or make it round
 7. Choice to add any of the following contact details: Email, Twitter, LinkedIn
 
-![Example Blocks](https://www.dropbox.com/s/jigkoh0dsqsepdx/Screenshot%202019-11-18%2022.56.52.png?dl=0)
+![Example Blocks](https://elzetteroelof.se/images/example-blocks.png)
 
 ## Next steps
 
