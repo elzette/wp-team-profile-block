@@ -10,7 +10,7 @@
 6. Keep profile image square or make it round
 7. Choice to add any of the following contact details: Email, Twitter, LinkedIn
 
-![Example Blocks](https://www.dropbox.com/s/jigkoh0dsqsepdx/Screenshot%202019-11-18%2022.56.52.png?dl=0)
+![Example Blocks](https://elzetteroelof.se/images/example-blocks.png)
 
 ## Next steps
 
