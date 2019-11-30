@@ -7,7 +7,7 @@
  * @license     GPL2+
  *
  * @wordpress-plugin
- * Plugin Name: WP Team Profile Block
+ * Plugin Name: n
  * Plugin URI:  https://semblance.co.uk
  * Description: WordPress Block to add individual team profiles. Various customisable settings available such as text colours, background and border colours. Choice between square or round profile image. Change alignment of all elements in box. Also add optional LinkedIn, Twitter and Email icons.
  * Version:     1.0.0
