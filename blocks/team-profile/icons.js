@@ -27,8 +27,8 @@ icons.remove = <svg width='20px' height='20px' viewBox='0 0 100 100' xmlns='http
 
 icons.email = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
   <title>email icon</title>
-  <polygon points="11.9 13.9 11.9 16 20 21 28.1 16 28.1 13.9 20 19 11.9 13.9"/>
-  <path d="M20,4A16,16,0,1,0,36,20,16,16,0,0,0,20,4ZM30.1,26.1a2,2,0,0,1-2,2H11.9a2,2,0,0,1-2-2V13.9a2,2,0,0,1,2-2H28.1a2,2,0,0,1,2,2Z"/>
+  <path class="cls-1" d="M20,4A16,16,0,1,0,36,20,16,16,0,0,0,20,4Zm7.9,20.8a1.6,1.6,0,0,1-1.5,1.6H13.6a1.6,1.6,0,0,1-1.5-1.6V15.2a1.6,1.6,0,0,1,1.5-1.6H26.4a1.6,1.6,0,0,1,1.5,1.6Z"/>
+  <polygon class="cls-1" points="13.6 15.2 13.6 16.9 20 20.8 26.4 16.9 26.4 15.2 20 19.2 13.6 15.2"/> 
 </svg>;
 
 icons.linkedin = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
