@@ -157,8 +157,8 @@ export default registerBlockType(
                   onChange={linkedIn => setAttributes({ linkedIn })}
                 />
                 <TextControl
-                  label={__('Twitter', 'wpteamprofile')}
-                  help={__('Add url to Twitter profile', 'wpteamprofile')}
+                  label={__("Twitter", "wpteamprofile")}
+                  help={__("Add url to Twitter profile", "wpteamprofile")}
                   value={twitter}
                   onChange={twitter => setAttributes({ twitter })}
                 />
@@ -239,28 +239,22 @@ export default registerBlockType(
                 />
                 { emailAddress || linkedIn || twitter ? (
                     <ul className="profile-social">
-                      {
-                        emailAddress && (
-                          <li className="profile-email"><a href={ emailAddress } target="_blank">{ icons.email }</a></li>
-                        )
-                      }
-                      {
-                        linkedIn && (
-                          <li className="profile-linkedin"><a href={ linkedIn } target="_blank">{ icons.linkedin }</a></li>
-                        )
-                      }
-                      {
-                        twitter && (
-                          <li className="profile-twitter"><a href={ twitter } target="_blank">{ icons.twitter }</a></li>
-                        )
-                      }
+                      { emailAddress && (
+                        <li className="profile-email"><a href={`mailto:${ emailAddress }`}>{ icons.email }</a></li>
+                      ) }
+                      { linkedIn && (
+                        <li className="profile-linkedin"><a href={ linkedIn }>{ icons.linkedin }</a></li>
+                      ) }
+                      { twitter && (
+                        <li className="profile-twitter"><a href={ twitter }>{ icons.twitter }</a></li>
+                      ) }
                     </ul>
                   ) : null }
               </div>
           ];
         },
         save: props => {
-            const { attributes: { textAlignment, heading, bio, blockBackgroundColor, blockHeadingColor, blockBorderColor, rangeControl, emailAddress, linkedIn, twitter, imgID, imgURL, imgAlt, imageShape } } = props;
+            const { attributes: { textAlignment, heading, bio, blockBackgroundColor, blockHeadingColor, blockBorderColor, rangeControl, emailAddress, linkedIn, twitter, imgURL, imgAlt, imageShape } } = props;
             const className = classnames(
               'bio-content'
             );
@@ -279,25 +273,20 @@ export default registerBlockType(
                     <div class={ className }>
                         { bio }
                     </div>
-                    { emailAddress || linkedIn || twitter ? (
-                      <ul className="profile-social">
-                        {
-                          emailAddress && (
-                          <li className="profile-email"><a href={`mailto:${emailAddress}`} target="_blank">{ icons.email }</a></li>
-                          )
-                        }
-                        {
-                          linkedIn && (
-                            <li className="profile-linkedin"><a href={ linkedIn } target="_blank">{ icons.linkedin }</a></li>
-                          )
-                        }
-                        {
-                          twitter && (
-                            <li className="profile-twitter"><a href={ twitter } target="_blank">{ icons.twitter }</a></li>
-                          )
-                        }
-                      </ul>
-                    ) : null }
+
+                  { emailAddress || linkedIn || twitter ? (
+                    <ul className="profile-social">
+                      { emailAddress && (
+                        <li className="profile-email"><a href={`mailto:${ emailAddress }`}>{ icons.email }</a></li>
+                      ) }
+                      { linkedIn && (
+                        <li className="profile-linkedin"><a href={ linkedIn }>{ icons.linkedin }</a></li>
+                      ) }
+                      { twitter && (
+                        <li className="profile-twitter"><a href={ twitter }>{ icons.twitter }</a></li>
+                      ) }
+                    </ul>
+                  ) : null }
                 </div>
             );
         },
