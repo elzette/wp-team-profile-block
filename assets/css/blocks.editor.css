@@ -27,3 +27,6 @@
 .editor-styles-wrapper .wp-block-semblance-teamprofile h1, .editor-styles-wrapper .wp-block-semblance-teamprofile h2, .editor-styles-wrapper .wp-block-semblance-teamprofile h3, .editor-styles-wrapper .wp-block-semblance-teamprofile h4, .editor-styles-wrapper .wp-block-semblance-teamprofile h5, .editor-styles-wrapper .wp-block-semblance-teamprofile h6, .editor-styles-wrapper .wp-block-semblance-teamprofile p {
   margin-top: 0.8em;
   margin-bottom: 0.8em; }
+
+.block-editor-block-icon.has-colors svg.icon-team {
+  fill: #f3c5b7; }

@@ -1,6 +1,6 @@
 const icons = {};
 
-icons.team = <svg width='24px' height='24px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+icons.team = <svg class='icon-team' width='24px' height='24px' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
 <circle cx="3.1" cy="4.1" r="1.6"/>
 <circle cx="7.1" cy="3.6" r="2"/>
 <path d="M4.1,14.7a2.1,2.1,0,0,1-1.2-1.9L2.6,8.5a2.6,2.6,0,0,1,.7-2.1H1.8A1.6,1.6,0,0,0,.2,8h0l.2,3.6a1,1,0,0,0,1,1h0l.2,4.9a.7.7,0,0,0,.7.7H3.9l.3-.3Z"/>

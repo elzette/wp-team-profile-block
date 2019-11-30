@@ -44,7 +44,8 @@ export default registerBlockType(
         description: __( 'WP Block for adding individual team member profiles.', 'wpteamprofile' ),
         category: 'layout',
         icon: {
-          background: 'rgba(254, 243, 224, 0.52)',
+          background: 'rgb(13, 0, 72, 1)',
+          color: 'rgb(249, 201, 197)',
           src: icons.team,
         },       
         keywords: [
