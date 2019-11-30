@@ -58,12 +58,3 @@ function _get_plugin_url() {
 
 // Enqueue JS and CSS
 include __DIR__ . '/lib/enqueue-scripts.php';
-
-// Register meta boxes
-// include __DIR__ . '/lib/meta-boxes.php';
-
-// Block Templates
-// include __DIR__ . '/lib/block-templates.php';
-
-// Dynamic Blocks
-// include __DIR__ . '/blocks/12-dynamic/index.php';
