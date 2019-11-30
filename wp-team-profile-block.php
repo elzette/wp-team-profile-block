@@ -2,14 +2,14 @@
 /**
  * Plugin's bootstrap file to launch the plugin.
  *
- * @package     Gutenberg_Courses\Example_Blocks
- * @author      Zac Gordon (@zgordon)
+ * @package     Semblance\WP_TeamProfile
+ * @author      Elzette Roelofse (@semblance_er)
  * @license     GPL2+
  *
  * @wordpress-plugin
  * Plugin Name: WP Team Profile Block
- * Plugin URI:  https://gutenberg.courses
- * Description: Practice making a block, forked from <a href="https://gutenberg.courses/development">Zac Gordon's Gutenberg Development Course</a>.
+ * Plugin URI:  https://semblance.co.uk
+ * Description: WordPress Block to add individual team profiles. Various customisable settings available such as text colours, background and border colours. Choice between square or round profile image. Change alignment of all elements in box. Also add optional LinkedIn, Twitter and Email icons.
  * Version:     1.0.0
  * Author:      Elzette Roelofse
  * Author URI:  https://twitter.com/semblance_er
